@@ -2,12 +2,12 @@
 ## (Messenger Auto Send Birthday Wishes)
 
 This BOT will allow you to Send Automatic Birthday Wishes For Your Facebook Friends Every Single Day 
-
+### By AdemKouki : https://about.me/AdemKouki
 Requirements :
 
  * VPS (OR your local machine)
  * Python (version 3.5.0 or higher)
- * Facebook Account (for sure :p)
+ * Facebook Account (for sure 😜)
  * LAMP server (or anything similar)
 
 ------------------
