@@ -33,7 +33,7 @@ https://web.facebook.com/ical/b.php?uid=100001217614623&key=XXXXXXXXXXXXXXXX
 
 6) Make a new folder and put all files (ics file you download it from fb + github files) Together in the same folder
 
-7) Rename it as : __cal.ics__ ( you must delete the old cal.ics file of course :sweat_smile: )
+7) Rename the .ics file you download it from facebook as : __cal.ics__ ( you must delete the old cal.ics file of course :sweat_smile: )
 
 
 ## Configuration :
@@ -45,11 +45,11 @@ https://web.facebook.com/ical/b.php?uid=100001217614623&key=XXXXXXXXXXXXXXXX
 wish = ['Hi {0}, Happy Birthday ^^']		
 ```
 
-{0} is your friend facebook Name ... for exemple :
+{0} is your friend facebook Name ... for example :
 
-if your friend's name is "Adem", the the message will be    :  Hi __Adem__, Happy Birthday ^^
+if your friend's name is "Adem", the message will be    :  Hi __Adem__, Happy Birthday ^^
 
-You Can also make random wishes ; Exemple :
+You Can also make random wishes ; Example :
 
 ```javascript
 wish = ['Hi {0}, Happy Birthday ^^' , 
