@@ -1,12 +1,12 @@
  # :birthday::speech_balloon: BirthdayBOT 
 ## (Messenger Auto Send Birthday Wishes)
 
-This BOT will allow you to Send Automatic Birthday Wishes For Your Facebook Friends Every Single Day 
+This BOT will allow you to send automatic birthday wishes for your facebook friends every single day 
 ### By AdemKouki : https://about.me/AdemKouki
 Requirements :
 
- * VPS (OR your local machine)
- * Python (version 3.5.0 or higher)
+ * VPS (or your local machine)
+ * Python (3.5.0 or higher)
  * Facebook Account (for sure 😜)
  * LAMP server (or anything similar)
 
@@ -18,7 +18,7 @@ Requirements :
 
 ![alt text](https://i.imgur.com/ncm50Ib.png)
 
-3) Right-click the link __Birthdays__ , Copy The Adress.. You will get a link like this
+3) Right-click the link __Birthdays__ , copy the url. You will get a link like this
 ```javascript
 webcal://web.facebook.com/ical/b.php?uid=100001217614623&key=XXXXXXXXXXXXXXXX
 ```
@@ -45,11 +45,11 @@ https://web.facebook.com/ical/b.php?uid=100001217614623&key=XXXXXXXXXXXXXXXX
 wish = ['Hi {0}, Happy Birthday ^^']		
 ```
 
-{0} is your friend facebook Name ... for example :
+{0} is your friend facebook name ... for example :
 
 if your friend's name is "Adem", the message will be    :  Hi __Adem__, Happy Birthday ^^
 
-You Can also make random wishes ; Example :
+You can also make random wishes ; Example :
 
 ```javascript
 wish = ['Hi {0}, Happy Birthday ^^' , 
@@ -98,14 +98,14 @@ schedule.every().day.at("12:33").do(BirthdayWish)
 
 In this exemple the bot will send wishes at __12:33__ change it as you like :D 
 
-:warning: :warning: :warning: Warning : The bot will your VPS server date and time ...
+:warning: :warning: :warning: Warning : The bot will use your VPS server date and time ...
 
 -----------
 -----------
 
-After Configuration, you need to put the folder in your LAMP (the default directory var/www/) in your VPS
+After configuration, you need to put the folder in your LAMP (the default directory var/www/) in your VPS
 
-1) Open your browser and open this URL : 
+1) Open your browser and go to this URL : 
 ```javascript
 http://{{server-ip-adress}}/birthdaybot/
 ```
@@ -133,7 +133,7 @@ screen -S birthdaybot
 pip install -r requirements.txt
 ```
 
-Finally, Start Your Bot :D
+Finally, Start Your bot :D
 ```javascript
 python bot.py
 ```
